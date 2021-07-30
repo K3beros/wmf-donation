@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation page</title>
+</head>
+<body onload="showCountries()">
+    <div>
+        <h1>Welcome to wikimedia donation page</h1>
+        <p>We are thrilled that you have decided to make a generous offer towards helpng spread the idea of an open free internet
+            please kindly fill out the form below,
+        </p>
+    </div>
+    <form action="" method="post">
+        <div>
+            <label for="lastName">Enter your last name</label>
+            <input type="text" name="lastName" id="" required>
+        </div>
+        <div>
+            <label for="firstName">Enter your first name</label>
+            <input type="text" name="firstName" id="" required>
+        </div>
+        <div>
+            <label for="address">Enter your address</label>
+            <input type="text" name="address" id="" required>
+        </div>
+        <div>
+            <label for="city">Enter your city</label>
+            <input type="text" name="city" id="" required>
+        </div>
+        <div>
+            <label for="state">Enter your state</label>
+            <input type="text" name="state" id="" required>
+        </div>
+        <div>
+            <label for="country">Enter your country</label>
+            <select name="country" id="country">
+                <option value="Select">Choose Contry</option>
+            </select>
+        </div>
+        <div>
+            <label for="postalcode">Enter your postal code</label>
+            <input type="text" name="postalcode" id="" required>
+        </div>
+        <div>
+            <label for="phone">Enter your phone number</label>
+            <input type="tel" name="phone" id="">
+        </div>
+        <div>
+            <label for="email">Enter your email</label>
+            <input type="email" name="email" id="">
+        </div>
+        <div>
+            <label for="contact">Enter your prefered form of contact</label>
+            <select name="contact" id="">
+                <option value="phone">Phone</option>
+                <option value="email">Email</option>
+            </select>
+        </div>
+        <div>
+            <label for="payment">Enter your prefered form of payment</label>
+            <select name="payment" id="">
+                <option value="usd">USD</option>
+                <option value="euro">Euro</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select>
+        </div>
+        <div>
+            <label for="freqdonation">Frequency of donation</label>
+            <select name="freqdonation" id="">
+                <option value="one-time">One Time</option>
+                <option value="monthly">Monthly</option>
+                <option value="yearly">Yearly</option>
+            </select>
+        </div>
+        <div>
+            <label for="amount">Donation amount</label>
+            <input type="number" name="amount" id="">
+        </div>
+        <div>
+            <label for="comment">Comments:</label>
+            <input type="text" name="comment" id="">
+        </div>
+        <div>
+            <input type="submit" value="Review">
+        </div>
+
+    </form>
+    
+</body>
+<script src="../public/javascripts/country.js"></script>
+<script src="../public/javascripts/scripts.js"></script>
+</html>
